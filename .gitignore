@@ -1,0 +1,50 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vscode/
+*.nupkg
+*.snupkg
+/.vs/
+*.dbmdl
+*.jfm
+TestResult*/
+*.PublishSettings
+AppPackages/
+BundleArtifacts/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+_ReSharper*/
+*.pidb
+*.svclog
+*.scc
+
+# EF Core
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+# Node / React
+node_modules/
+dist/
+build/
+.tmp/
+.DS_Store
+*.log
+yarn.lock
+package-lock.json
+
+# Env and secrets
+.env
+.env.*
+**/appsettings.Local.json
+**/appsettings.*.local.json
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
